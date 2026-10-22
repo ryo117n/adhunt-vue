@@ -2,15 +2,30 @@
   "name": "adhunt",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "https://github.com/rails/webpacker",
+    "@rails/webpacker": "https://github.com/rails/webpacker.git#f46bd639220948a1c0dccf14dc86e243e758cc49",
     "axios": "^0.18.0",
     "sass-resources-loader": "^2.0.0",
-    "vue": "^2.5.17",
-    "vue-loader": "^15.4.2",
+    "vue": "2.7.16",
+    "vue-loader": "15.11.1",
     "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "2.7.16"
   },
   "devDependencies": {
+    "babel-loader": "8.4.1",
+    "css-loader": "1.0.1",
+    "sass": "1.32.13",
+    "webpack": "4.47.0",
     "webpack-dev-server": "^3.1.10"
+  },
+  "engines": {
+    "node": "^22.23.4"
+  },
+  "overrides": {
+    "node-sass": "npm:sass@1.32.13"
+  },
+  "resolutions": {
+    "node-sass": "npm:sass@1.32.13",
+    "webpack": "4.47.0",
+    "babel-loader": "8.4.1"
   }
 }
